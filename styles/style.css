@@ -12,7 +12,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-bottom .content-inner {
+  position: absolute;
   transform: none;
-  top: 80%;
+  top: auto;
+  bottom: 30px;
+  left: 0;
+  right: 0;
 }
 
+.invert h1,
+.invert h2,
+.invert h3,
+.invert h4,
+.invert h5,
+.invert h6 {
+  color: #222;
+  text-shadow: 0 0 3px rgba(255,255,255,0.8);
+}
+
+.dark-overlay .img-container {
+  opacity: 0.7;
+}
+
+.example-site h2 {
+  font-size: 48px;
+}
