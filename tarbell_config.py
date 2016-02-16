@@ -33,12 +33,12 @@ S3_BUCKETS = {
     #     "mytarget": "mys3url.bucket.url/some/path"
     # then use tarbell publish mytarget to publish to it
     
-    "production": "recoveredfactory.net/hhdc",
-    "staging": "recoveredfactory.net/hhdc",
+    "production": "recoveredfactory.net/dbootcamp-taipei",
+    "staging": "recoveredfactory.net/dbootcamp-taipei",
 }
 
 # Default template variables
 DEFAULT_CONTEXT = {
-    'name': 'hhdc',
+    'name': 'dbootcamp-taipei',
     'title': 'The Two Idas'
 }
